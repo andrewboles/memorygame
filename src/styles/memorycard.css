@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  flex-flow: column;
+  width: 100px;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(229,224,215,255);
+  border-radius: 15px;
+  margin: 10px 30px;
+  justify-content: space-between;
+}
+
+.charImg{
+  width: 100px;
+  margin: 10px auto 0px auto;
+  /*border: 1px solid black;
+  border-radius: 5px;*/
+}
+
+.charTitle {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
